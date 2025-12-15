@@ -34,7 +34,7 @@ You can contribute to translations on [__Weblate__](https://hosted.weblate.org/p
 
     ```sh
     curl -sSfO 'https://bootstrap.pypa.io/get-pip.py'
-    sudo python3 get-pip.py
+    sudo python3 ./get-pip.py
     rm get-pip.py
     ```
 
