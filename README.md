@@ -46,10 +46,11 @@ You can contribute to translations on [__Weblate__](https://hosted.weblate.org/p
     sudo sed -i '/^\[global\]/a\break-system-packages=true' /etc/pip.conf
     ```
 
-3. Install and setup **motionEye**
+3. Install and setup **motionEye** and **Camera drivers**
 
     ```sh
     sudo python3 -m pip install motioneye
+    sudo apt install libcamera-v4l2
     sudo motioneye_init
     ```
 
